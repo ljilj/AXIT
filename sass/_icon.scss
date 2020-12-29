@@ -1,22 +1,10 @@
 .c-icon {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     fill: currentColor;
-
-    svg {
-        width: 1.875rem;
-        height: 1.875rem;
-    }
+    width: 1.875rem;
+    height: 1.875rem;
+    margin: 0.5rem;
 }
 
-.c-icon--size {
-    margin-inline-end: 1rem;
-
-    @media (min-width: $mobile-sm) {
-        margin-inline-end: 0;
-    }
-}
 
 
