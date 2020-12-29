@@ -1,9 +1,15 @@
-.c-grid-two {
+.c-grid {
     display: grid;
+}
+
+.c-grid--two {
     grid-template-columns: 1fr;
 
     @media (min-width: $mobile) {
         grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem;
     }
+}
+
+.c-grid--gap {
+    grid-gap: 2rem;
 }

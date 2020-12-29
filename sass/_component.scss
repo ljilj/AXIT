@@ -1,7 +1,7 @@
 /***  Hero section  ***/
 .c-hero-section {
     min-height: 70vh;
-    background: url('../images/hero-img.png');
+    background: url('../images/hero-image.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -9,11 +9,11 @@
     align-items: center;
 }
 
-.c-hero-left {
+.c-hero-pitch {
     padding-block-start: 1rem;
 }
 
-.c-hero-right {
+.c-form {
     background-color: var(--color-white);
     display: flex;
     flex-direction: column;
@@ -27,14 +27,14 @@
         max-height: 25rem;
     }
 
-    > h3 {
+    h3 {
         margin-block-end: 1rem;
         padding-block-start: 1rem;
         padding-block-end: 1rem;
         background-color: var(--color-grey-light);
     }
 
-    > h4 {
+    h4 {
         padding-block-start: 1.5rem;
         padding-block-end: 1.5rem;
         margin-block-start: 2rem;   
