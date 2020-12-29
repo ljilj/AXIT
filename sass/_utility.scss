@@ -1,0 +1,24 @@
+.u-container {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.u-mx {
+    margin-inline-start: 2rem;
+    margin-inline-end: 2rem;
+}
+
+.u-line {
+    height: 2px;
+    width: 84px;
+    border: none;
+    margin-block-end: 2rem;
+}
+
+.u-bkg-white {
+    background-color: var(--color-white);
+}
+
+.u-color-warning {
+    color: var(--color-warning);
+}
