@@ -258,11 +258,6 @@ a {
   padding-block-end: 1rem;
   background-color: var(--color-grey-light);
 }
-.c-form h4 {
-  padding-block-start: 1.5rem;
-  padding-block-end: 1.5rem;
-  margin-block-start: 2rem;
-}
 
 .c-grid {
   display: grid;
@@ -334,6 +329,17 @@ a {
 .c-btn--size {
   margin-block-start: 2rem;
   margin-block-end: 2rem;
+}
+
+.c-btn--block {
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.7rem;
+  margin-block-start: 2rem;
+}
+
+.c-btn--warning {
+  background-color: var(--color-warning);
+  border: none;
 }
 
 /*# sourceMappingURL=style.css.map */

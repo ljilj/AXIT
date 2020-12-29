@@ -12,3 +12,14 @@
     margin-block-start: 2rem;
     margin-block-end: 2rem;
 }
+
+.c-btn--block {
+    padding-block-start: 1.5rem;
+    padding-block-end: 1.7rem;
+    margin-block-start: 2rem; 
+}
+
+.c-btn--warning {
+    background-color: var(--color-warning);
+    border: none;
+}
