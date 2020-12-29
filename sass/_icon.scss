@@ -1,27 +1,22 @@
-.c-icons {
+.c-icon {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    fill: var(--color-grey);
+    fill: currentColor;
+
+    svg {
+        width: 1.875rem;
+        height: 1.875rem;
+    }
 }
 
-.c-icons--size {
+.c-icon--size {
     margin-inline-end: 1rem;
 
     @media (min-width: $mobile-sm) {
         margin-inline-end: 0;
     }
 }
-
-svg {
-    width: 1.875rem;
-    height: 1.875rem;
-    padding-block-start: 1.5rem;
-    padding-block-end: 1.5rem;
-    margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
-}
-
 
 

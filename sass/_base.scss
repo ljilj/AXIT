@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 1rem;
+}
+
 body {
     box-sizing: border-box;
 }
@@ -16,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-input {
+.c-field-control {
     margin: 1.5rem;
     padding-inline-start: 1rem;
     padding-inline-end: 1rem;
@@ -30,7 +34,6 @@ input {
         color: var(--color-grey);
     }
 }
-
 
 .text-center {
     text-align: center;
