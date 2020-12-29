@@ -1,0 +1,42 @@
+/***  Hero section  ***/
+.c-hero-section {
+    min-height: 70vh;
+    background: url('../images/hero-img.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-hero-left {
+    padding-block-start: 1rem;
+}
+
+.c-hero-right {
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    margin-inline-end: 2rem;
+    margin-inline-start: 2rem;
+
+    @media (min-width: $mobile) {
+        margin-block-start: 2.5rem;
+        max-height: 25rem;
+    }
+
+    > h3 {
+        margin-block-end: 1rem;
+        padding-block-start: 1rem;
+        padding-block-end: 1rem;
+        background-color: var(--color-grey-light);
+    }
+
+    > h4 {
+        padding-block-start: 1.5rem;
+        padding-block-end: 1.5rem;
+        margin-block-start: 2rem;   
+    }
+}

@@ -1,0 +1,14 @@
+.c-btn {
+    padding: 0.625rem 1.875rem;
+    text-align: center;
+    font-size: 1.125rem;
+    border: none;
+    background-color: transparent;
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+}
+
+.c-btn--size {
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+}

@@ -1,0 +1,9 @@
+.c-grid-two {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    @media (min-width: $mobile) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+}

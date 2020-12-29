@@ -4,11 +4,13 @@
   "description": "asd",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass/main.scss css/style.css --watch"
+    "sass": "sass sass/main.scss css/style.css --watch",
+    "svgSprite": "svg-sprite-generate -d icons -o sprite.svg"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.26.8"
+    "sass": "^1.26.8",
+    "svg-sprite-generator": "0.0.7"
   }
 }
