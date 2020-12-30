@@ -34,3 +34,55 @@
         background-color: var(--color-grey-light);
     }
 }
+
+// Social Media section
+.c-social-icons {
+    color: var(--color-grey);
+}
+
+.c-social-container {
+    text-align: center;
+    
+    @media (min-width: $mobile) {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        margin-inline-start: 2rem;
+        margin-inline-end: 1rem;
+    }
+}
+
+
+
+/*** Stylish section ***/
+.c-stylish-section {
+    min-height: 30vh;
+    background: url('../images/custom-img.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-stylish__title {
+    margin-block-start: 3rem;
+    color: var(--color-white);
+}
+
+
+/*** Contact section ***/
+.c-contact-section {
+    margin-block-end: 4rem;
+}
+
+.c-contact__title {
+    margin-block-start: 4rem;
+    padding-block-start: 2rem;
+    color: var(--color-grey-black);
+}
+
+
+
+
+

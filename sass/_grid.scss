@@ -10,6 +10,18 @@
     }
 }
 
+.c-grid--three {
+    grid-template-columns: 1fr;
+
+    @media (min-width: $mobile) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: $desktop-md) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
 .c-grid--gap {
     grid-gap: 2rem;
 }
