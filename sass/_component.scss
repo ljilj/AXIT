@@ -53,12 +53,12 @@
 }
 
 /*** Testimonials section ***/
-.c-testimonials-section {
-    padding-block-start: 7rem;
+.c-section {
+    padding-block-start: 6rem;
     padding-block-end: 7rem;
 }
 
-.c-testimonials__title {
+.c-section__title {
     margin-block-start: 3rem;
     color: var(--color-grey-black);
 }
@@ -99,7 +99,7 @@
     }
 }
 
-.c-textimonials__content {
+.c-testimonials__content {
     display: flex;
     justify-content: center;
 
@@ -116,7 +116,7 @@
 
 
 /*** Stylish section ***/
-.c-stylish-section {
+.c-section--stylish-block {
     min-height: 30vh;
     background: url('../images/custom-img.png');
     background-size: cover;
@@ -133,13 +133,7 @@
 
 
 /*** Contact section ***/
-.c-contact-section {
-    margin-block-end: 4rem;
-}
-
-.c-contact__title {
-    margin-block-start: 4rem;
-    padding-block-start: 2rem;
+.c-section__title {
     color: var(--color-grey-black);
 }
 

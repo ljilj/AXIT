@@ -313,12 +313,12 @@ textarea {
 }
 
 /*** Testimonials section ***/
-.c-testimonials-section {
-  padding-block-start: 7rem;
+.c-section {
+  padding-block-start: 6rem;
   padding-block-end: 7rem;
 }
 
-.c-testimonials__title {
+.c-section__title {
   margin-block-start: 3rem;
   color: var(--color-grey-black);
 }
@@ -359,22 +359,22 @@ textarea {
   }
 }
 
-.c-textimonials__content {
+.c-testimonials__content {
   display: flex;
   justify-content: center;
 }
 @media (min-width: 1280px) {
-  .c-textimonials__content {
+  .c-testimonials__content {
     justify-content: start;
   }
 }
-.c-textimonials__content .c-testimonials__info {
+.c-testimonials__content .c-testimonials__info {
   margin-inline-start: 1rem;
   margin-block-start: 0.5rem;
 }
 
 /*** Stylish section ***/
-.c-stylish-section {
+.c-section--stylish-block {
   min-height: 30vh;
   background: url("../images/custom-img.png");
   background-size: cover;
@@ -390,13 +390,7 @@ textarea {
 }
 
 /*** Contact section ***/
-.c-contact-section {
-  margin-block-end: 4rem;
-}
-
-.c-contact__title {
-  margin-block-start: 4rem;
-  padding-block-start: 2rem;
+.c-section__title {
   color: var(--color-grey-black);
 }
 
@@ -466,6 +460,10 @@ textarea {
   width: 84px;
   border: none;
   margin-block-end: 2rem;
+}
+
+.u-color-white {
+  color: var(--color-white);
 }
 
 .u-bkg-white {
