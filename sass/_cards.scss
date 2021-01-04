@@ -1,3 +1,27 @@
+/*** Awesome section ***/
+.c-awesome-card__content {
+    margin: 0 auto;
+    width: 4rem;
+    position: relative;
+    img {
+        width: 4rem;
+    }
+    .c-icon {
+        position: absolute;
+        top: 15%;
+        left: 14%;
+        color: var(--color-warning);
+    }
+}
+
+.c-awesome-card__title {
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    color: var(--color-grey-black);
+    font-weight: 500;
+}
+
+
 /*** Pricing section ***/
 .c-pricing-card {
     text-align: center;

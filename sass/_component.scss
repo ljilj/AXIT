@@ -52,6 +52,45 @@
     }
 }
 
+/*** Tab section ***/
+
+
+
+
+
+/*** Sub section ***/
+.c-sub-content {
+    display: flex;
+    flex-direction: row;
+    margin-block-end: 2rem;
+}
+
+.c-sub-img__content {
+    width: 100%;
+    max-width: 3rem;
+    position: relative;
+    margin-inline-end: 1rem;
+
+    img {
+        width: 3rem;
+    }
+    .c-icon {
+        width: 1.5rem;
+        position: absolute;
+        top: 0;
+        left: 8%;
+        color: var(--color-warning);
+    }
+}
+
+.c-sub__desc {
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
+    h5 {
+        font-size: 1rem;
+    }
+}
+
 
 
 
