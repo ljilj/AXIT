@@ -8,7 +8,13 @@ navToggle.addEventListener('click', function() {
 
 
 // Tab
+var tabs = new Tabs({
+    elem: "tabs",
+    open: 1,
+    activeClass: "js-tabs__title-active"
+});
 
+tabs.open(0);
 
 
 

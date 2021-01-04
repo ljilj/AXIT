@@ -53,7 +53,79 @@
 }
 
 /*** Tab section ***/
+.c-tabs {
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
 
+    @media (min-width: $desktop-md) {
+        flex-direction: row;
+    }
+}
+
+.c-tab-list {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: $desktop-md) {
+        margin-inline-end: 7rem;
+    }
+}
+
+.c-tab-list__btn {
+    background-color: var(--color-grey-dark);
+    color: var(--color-white);
+    border: none;
+    border-bottom: 1px solid var(--color-grey-light);
+    text-transform: uppercase;
+    padding-inline-start: 2.1875rem;
+    padding-inline-end: 2.1875rem;
+    padding-block-start: 3.125rem;
+    padding-block-end: 3.125rem;
+}
+
+.c-tab-list__btn--active {
+    background-color: var(--color-warning);
+}
+
+.c-tabs-content {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+    @media (min-width: $desktop-md) {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+.c-tabs-content__desc {
+    @media (min-width: $desktop-md) {
+        max-width: 31.25rem;
+    }
+}
+
+.c-tabs-img {
+    display: flex;
+    justify-content: space-around;
+
+    .c-tabs-img__img {
+        @media (min-width: $desktop-md) {
+            width: 25rem;
+            margin-inline-start: 3rem;
+        }
+    }
+}
 
 
 
@@ -65,33 +137,34 @@
     margin-block-end: 2rem;
 }
 
-.c-sub-img__content {
-    width: 100%;
-    max-width: 3rem;
-    position: relative;
-    margin-inline-end: 1rem;
+.c-icon__circle {
+    width: 4rem;
 
-    img {
-        width: 3rem;
-    }
     .c-icon {
-        width: 1.5rem;
-        position: absolute;
-        top: 0;
-        left: 8%;
         color: var(--color-warning);
+        border-radius: 50%;
+        padding: 0.5rem;
+        border: 2px solid var(--color-warning);
+    }
+}
+
+.c-icon__circle--lg {
+    margin: 0 auto;
+    width: 6rem;
+
+    .c-icon {
+        padding: 1.2rem;
     }
 }
 
 .c-sub__desc {
     padding-inline-start: 0.5rem;
     padding-inline-end: 0.5rem;
+
     h5 {
         font-size: 1rem;
     }
 }
-
-
 
 
 /*** Testimonials section ***/
@@ -154,7 +227,6 @@
         margin-block-start: 0.5rem;
     }
 }
-
 
 
 /*** Stylish section ***/
