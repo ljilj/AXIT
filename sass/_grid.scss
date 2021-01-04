@@ -24,4 +24,8 @@
 
 .c-grid--gap {
     grid-gap: 2rem;
+
+    @media (min-width: $desktop) {
+        grid-gap: 6rem;
+    }
 }

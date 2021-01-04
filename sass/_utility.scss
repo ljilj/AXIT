@@ -6,6 +6,11 @@
 .u-mx {
     margin-inline-start: 2rem;
     margin-inline-end: 2rem;
+
+    @media(min-width: $desktop-md) {
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
 }
 
 .u-my {
@@ -19,6 +24,14 @@
 
 .u-mb {
     margin-block-start: 2rem;
+}
+
+.u-ml {
+    margin-inline-start: 0;
+
+    @media(min-width: $desktop-md) {
+        margin-inline-start: 2rem;
+    }
 }
 
 .u-svg-size {
