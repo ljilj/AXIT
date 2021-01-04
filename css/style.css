@@ -347,7 +347,7 @@ textarea {
   padding-block-end: 3.125rem;
 }
 
-.js-tabs__title-active {
+.c-tab-list__btn--active {
   background-color: var(--color-warning);
 }
 
